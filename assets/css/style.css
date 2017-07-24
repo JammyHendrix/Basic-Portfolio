@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	border:0;
+	background-color: #ffffff;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	margin: 0;
+	width: 250pt;
+	padding: 10pt 10pt 10pt 10pt;
+	text-align: center;
+}
+
+#navbar {
+	width: 25%;
+	height: 70px;
+	background-color: white;
+	color: #777777;
+	text-align: right;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: right;
+	padding: 5pt 5pt 5pt 5pt;
+
+	
+
+
+}
+
+#linkref {
+	color: #777777;
+	padding: 15px;
+	text-align: center;
+}
+
+
+#aboutme {
+	line-height: 25pt;
+	width: 500pt;
+	margin: 0;
+	border-style: ridge;
+}
+
+#bioimage {
+	float: left;
+	padding: 10pt 10pt 10pt 10pt;
+}
+
+#biotext {
+	padding: 1pt;
+}
+
+h2 {
+	color: #4aaaa5
+}
+
+footer {
+	text-align: center;
+	background-color: #666666
+	color: white;
+	clear: 
+}
+
+#aside {
+	border-style: ridge;
+	width: 300pt;
+	padding: 10;
+
+}
