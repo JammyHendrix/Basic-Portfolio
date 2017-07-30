@@ -3,46 +3,79 @@
 <head>
 	<title>Contact Me</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
-<h1>Christopher Jamison</h1>
-
 <body>
+	<header class="header">
+	<div id="siteowner">
+	<h1>Christopher Jamison</h1>
+	</div>
 
-<div id="navbar">
+	
+	<nav class="menu">
 		
-			<a href="Basic-Portfolio/index.html" id="linkref">About</a>
-			<a href="Basic-Portfolio/portfolio.html" id="linkref">Portfolio</a>
-			<a href="Basic-Portfolio/contact.html" id="linkref">Contact</a>
+			<a href="index.html" id="linkref">About</a>
+			<a href="portfolio.html" id="linkref">Portfolio</a>
+			<a href="contact.html" id="linkref">Contact</a>
 		
-		</div>
+		</nav>
+		</header>
 
-	<section class="contact">
+	<div class="main_panel">
+	<section class="left_panel">
+		<article class="panel_topic">
+		<header class="panel_heading">
+			<h2>Contact</h2>
+			</header>
+			<div class="divider">
+			</div>
+			<div class="detail">
 
-		<h2>Contact</h2>
-			<form>
-				Name <br>
-				 <input type="text" name="John Smith">
+			<form id="contactform">
+				<label for="name">Name</label>
 				 <br>
-				 Email <br>
-				 <input type="text" name="example@gmail.com">
+				 <input type="text" id="name" placeholder="Your name">
 				 <br>
-				 Message <br>
-				 <input type="text" name="Type Message Here">
 				 <br>
+				 <label for="email">Email Adress</label>
+				 <br>
+				 <input type="email" id="email" placeholder="you@gmail.com">
+				 <br>
+				 Message
+				 <br>
+				 <textarea name="textarea"></textarea>
+				 <br>
+				 <input type="Submit" id="Submit">
 
-				 <button>Submit</button>
+		
 			</form>
+			</div>
+			</article>
+			</section>
 
-			<aside>
+			<aside class="right_panel">
+			<header class="panelheading">
+			
 			<h3>Connect With Me</h3>
+			</header>
+			<div class="divider"></div>
+			<nav class="social_links">
 
-			<a href="https://github.com/JammyHendrix"><img src="assets/images/if_github_394189.png"></a>
-			<a href="https://www.linkedin.com/in/christopher-jamison-678bb982/"><img src="assets/images/if_social_media_logo_linkedin_1078324.png"></a>
-			<a href="https://stackoverflow.com/users/8281456/jammyhendrix?tab=profile"><img src="assets/images/if_stackoverflowpx_85159.png"></a>
+			<a href="https://github.com/JammyHendrix"><img src="assets/images/if_github_394189.png" alt="Github" width="50pt" height="50pt">
+			</a>
+
+			<a href="https://www.linkedin.com/in/christopher-jamison-678bb982/"><img src="assets/images/if_social_media_logo_linkedin_1078324.png" alt="linkedin" width="50pt" height="50pt">
+			</a>
+
+			<a href="https://stackoverflow.com/users/8281456/jammyhendrix?tab=profile"><img src="assets/images/if_stackoverflowpx_85159.png" alt="stackoverflow" width="50pt" height="50pt">
+			</a>
+			</nav>
 
 
 		</aside>
+		</div>
+		<footer>Copyright2017 Christopher Jamison</footer>
+
 
 </body>
-<footer>Copyright2016 Christopher Jamison</footer>
 </html>
